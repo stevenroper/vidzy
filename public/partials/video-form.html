@@ -1,0 +1,15 @@
+<h1>Video Form</h1>
+<form>
+  <div class='form-group'>
+    <label>Title</label>
+    <input class='form-control' ng-model='video.title'></input>
+  </div>
+  <div class='form-group'>
+    <label>Description</label>
+    <textarea class='form-control' ng-model='video.description'></textarea>
+  </div>
+  <div class='form-group'>
+    <button type="button" name="Save" class='btn btn-primary' ng-click='save()'>Submit</button>
+    <a href="/#/" class='btn btn-danger'>Cancel</a>
+  </div>
+</form>
