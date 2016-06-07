@@ -3,5 +3,8 @@
   <a href="/#/add-video" class='btn btn-success form-control'>Add a video</a>
 </p>
 <ul>
-  <li ng-repeat='video in videos'>{{video.title}}</li>
+  <li ng-repeat='video in videos'>
+    <span>{{video.title}}</span>
+    <a href="/#/video/{{video._id}}" class='video-update-links'>Edit</a>
+  </li>
 </ul>
